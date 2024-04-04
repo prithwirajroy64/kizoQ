@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 99vw;
+  height: 99vh;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #b9d5ff,
+    #87b8cb,
+    #719794,
+    #647369,
+    #51524c
+  );
+}
+.app {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  padding: 10px 40px;
+  position: relative;
+}
+
+.upper,
+.lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+p {
+  margin: 10px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: yellowgreen;
+  cursor: pointer;
+}
+
+/* ------------ */
+.game-1 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+/* ------------ */
+
+/* ----------- */
+.game-2 > div {
+  display: flex;
+  align-items: center;
+}
+/* ----------- */
+
+/* ----------- */
+.game-3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+/* ----------- */
+
+/* ----------- */
+.game-4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* ----------- */
+
+/* ----------- */
+.game-5 > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+/* ----------- */
+
+/* ----------- */
+.game-6 {
+  display: flex;
+  align-items: center;
+}
+/* ----------- */
+/* ----------- */
+/* ----------- */
+
+.dis {
+  cursor: not-allowed;
+}
